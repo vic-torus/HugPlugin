@@ -1,0 +1,17 @@
+name: HugPlugin
+main: io.github.vic_torus.hugplugin.HugPlugin
+version: 0.0.1-SNAPSHOT
+author: vic_torus
+description: A beginning plugin that shares virtual hugs
+
+commands:
+  hug:
+    description: Shares a "you've been hugged!" message with the specified target.
+    usage: /<command> [player]
+    permission: hugplugin.hug
+
+permissions:
+  hugplugin.hug:
+    description: Permission to use the /hug command
+    default: op
+  

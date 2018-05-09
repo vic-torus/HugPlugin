@@ -2,6 +2,7 @@ package io.github.vic_torus.hugplugin;
 
 import java.util.UUID;
 
+import org.bukkit.command.BlockCommandSender;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
@@ -21,7 +22,7 @@ public class HugPlugin extends JavaPlugin {
 		if (label.equalsIgnoreCase("hug")) {
 			
 			// If sender is a player who has permission to use the "hug" command:
-			if ((sender instanceof Player && sender.hasPermission("hugplugin.hug")) || sender instanceof ConsoleCommandSender) {
+			if ((sender instanceof Player && sender.hasPermission("hugplugin.hug")) || sender instanceof ConsoleCommandSender || sender instanceof BlockCommandSender) {
 				
 				// If the number of arguments attached to the "hug" command is not 1 (one target name):
 				if (arguments.length != 1) {

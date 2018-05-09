@@ -5,3 +5,5 @@ It's been a while since I've coded, and Java is a new language, so I have no ide
 Also, because I am learning as I go, I tend to go heavy on the commenting... It helps me understand, lol.
 I'd like to add the ability for players with the right permission to hug multiple players or even @a- that seems simple enough, I'm just still working out how to do it neatly.
 Anyhow, if you happen to have found my silly beginner's plugin- enjoy! :)
+
+ETA- I just realized that because I'm a noob, the command doesn't work with command blocks yet. I'm going to work on that too ^_^
